@@ -1,5 +1,5 @@
 # PRAYAS : Prediction, Response And Yojana for Aapda Suraksha
-PRAYAS (Endeavor/Effort) is a comprehensive, AI-powered disaster management platform designed to build safer, flood-resilient communities in India. By integrating real-time meteorological data, digital elevation models, and historical community-driven inputs, PRAYAS provides a holistic solution for flood prediction, emergency response and transparent relief fund allocation.
+PRAYAS (Endeavor/Effort) is a comprehensive, disaster management platform designed to build safer, flood-resilient communities in India. By integrating real-time meteorological data, digital elevation models, and historical community-driven inputs, PRAYAS provides a holistic solution for flood prediction, emergency response and transparent relief fund allocation.
 
 # Overview
 Floods in India cause massive loss of life and property annually. PRAYAS aims to bridge the gap between data and action. The platform serves two main user groups: Citizens (seeking safety and information) and Authorities/Admins (managing resources and alerts).
@@ -17,8 +17,8 @@ https://github.com/user-attachments/assets/321dcb34-c226-47b9-ad78-7eba9818c3e1
 # System Workflow
 The system architecture flows from data ingestion to user action:
 
-  1. Data Ingestion: Live Weather APIs, Digital Elevation Models (DEM), and Historical Flood Data are fed into the system.
-  2. AI Risk Model: Processes this data to continuously update risk predictions.
+  1. Data Ingestion: Live Weather APIs, Digital Elevation Models (DEM) are fed into the system.
+  2. Rule Risk Model: Processes this data to continuously update risk predictions.
   3. User Interface: Users access the Main Dashboard via a secure Login/Sign-up.
   4. Actionable Modules: From the dashboard, users can access Maps, Funds, News, and Emergency services.
 
@@ -28,9 +28,8 @@ The system architecture flows from data ingestion to user action:
 ### 1. Interactive Map Interface
 - Real-Time Flood Risk: Visualizes risk zones based on live rainfall data and terrain elevation.
 - "What-If" Simulations: An interactive slider allows users to simulate rainfall (e.g., 50mm vs 150mm) to see how floodwaters might expand over local streets.
-- Safe Shelters: Locate nearest relief camps with real-time capacity info.
-- Evacuation Routes: AI-generated safe walking/driving routes avoiding flooded zones.
-- Bilingual Narration: Text-to-Speech navigation and briefings in English and Hindi.
+- Safe Shelters: Locate nearest relief camps.
+- Evacuation Routes: safe walking/driving routes avoiding flooded zones.
 
 ### 2. Relief Funds Dashboard (Transparency Module)
 #### Public View:
@@ -50,10 +49,9 @@ The system architecture flows from data ingestion to user action:
 - Local News Feed: Curated updates regarding the disaster in the specific locality.
 - Emergency Contacts: One-tap access to NDRF, Police, Ambulance, and Fire services.
 
-### 4. AI-Powered Risk Model
+### 4. Rule Based Risk Model
 
 - Integrates Digital Elevation Models (DEM) for granular, street-level flood prediction.
-- Uses historical flooding patterns to validate current risk levels.
 
 # Tech Stack
 - Frontend Framework: React.js
